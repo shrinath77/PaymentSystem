@@ -3,6 +3,6 @@ abstract class Payment {
 
     void transactionMessage()
     {
-        System.out.println(" Processing payment secuarly ");
+        System.out.println(" Processing payment");
     }
 }
