@@ -3,10 +3,9 @@ import java.util.logging.Logger;
 public class UPIPayment extends Payment implements Payable {
 
 
-    private static final Logger logger = Logger.getLogger(UPIPayment.class.getName());
 
     public void validate() {
-        logger.info("Validating upi id");
+        System.out.println("Validating UPi ID");
     }
 
     @Override
