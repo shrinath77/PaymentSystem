@@ -9,5 +9,6 @@ public class CreditCardPayment extends  Payment implements Payable {
         validate();
         transactionMessage();
         System.out.println("Paid"+amount+"using cc ");
+        System.out.println("Paid");
     }
 }
